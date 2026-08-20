@@ -1,55 +1,42 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-GB">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="refresh" content="3; url=./index.html#intro" />
     <title>Thanks — Torimbia Ltd</title>
-    <style type="text/css">
-      .myClass {
-        font-family: verdana;
-        font-size: 16px;
-        font-weight: normal;
-        color: black;
-        line-height: 30px;
-      }
-    </style>
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#161412" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Syne:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <script type="text/javascript">
-      (function () {
-        var timeLeft = 3;
-        var cinterval;
-
-        var timeDec = function countdownTick() {
-          timeLeft--;
-          document.getElementById("countdown").innerHTML = timeLeft;
-          if (timeLeft === 0) {
-            clearInterval(cinterval);
-          }
-        };
-
-        cinterval = setInterval(timeDec, 1000);
-      })();
-    </script>
-
-    <br /><br />
-
-    <span class="myClass"
-      >Thanks for your message, we'll get back to you soon! Taking you back to
-      Torimbia in </span
-    ><span id="countdown">3</span>
-    <span class="myClass"> seconds...</span>
-
-    <br />
-    <br />
-
-    <span class="myClass"
-      >If you just can't wait, or you are not automatically redirected, just
-      click the link below:</span
-    >
-    <span class="myClass">
-      <a href="./index.html#intro">Torimbia Ltd Home</a>
-    </span>
+  <body class="simple-page">
+    <header class="site-header is-solid">
+      <div class="wrap header-inner">
+        <a class="wordmark" href="./index.html">Torimbia</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a class="btn btn-small" href="./index.html#contact">Start a conversation</a>
+        </nav>
+      </div>
+    </header>
+    <main class="simple-main">
+      <div class="wrap narrow">
+        <p class="eyebrow">Sent</p>
+        <h1>Thanks — I have your message.</h1>
+        <p>
+          I usually reply within one working day.
+        </p>
+        <p><a href="./index.html">Back to Torimbia</a></p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p class="copyright">&copy; Torimbia Ltd. 2026.</p>
+      </div>
+    </footer>
   </body>
 </html>
